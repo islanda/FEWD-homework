@@ -1,0 +1,56 @@
+body{
+    background-image: url(../images/bkgd2.jpg);
+}
+#container{
+    width: 960px;
+    margin: 10px auto;
+    padding: 0 25px 0 25px;
+    font-family: helvetica;
+    font-weight: 100;
+    border: 4px solid white;
+}
+a:hover{
+    color: #AD1221;
+}
+    header, footer{
+        text-align: center;
+        padding-top: 10px
+    }
+    h1{
+        font-weight: 100;
+        color: #AD1221;
+    }
+    h2{
+        font-weight: 100;
+        font-size: 24px;
+        color: #AD1221;
+
+    }
+    a{
+        color:#0000;
+        margin-right: 5px
+        vertical-align: middle;
+        text-decoration: none; 
+}
+    a, span{
+        font-size:14px;
+        color: #333;
+
+    }
+    section{
+        border-top:1px solid white;
+        margin-top: 25px;
+    }
+    .right{
+        float: right;
+    }
+    img{
+    	float: right;
+    	padding-right: 10px
+    }
+    p{
+        font-size: 14px;
+        line-height: 1.5;
+}
+    .title{
+        font-weight: bold;
