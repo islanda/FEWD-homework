@@ -14,6 +14,10 @@ $(document).ready(function(){
 	var randNum = Math.floor(Math.random()*numImgs);
 	$("#portfolio>a>img").eq(randNum).attr("id","special-img");
 	$("#special-img").animate({opacity: 1.0},1);
+	$("#portfolio>a>img").on("mouseenter",function(){
+	$("#special-img").animate({opacity: 0.3},1);
+
+	});
 
 	//Check to see if the window is top if not then display button
 	$(window).scroll(function(){
